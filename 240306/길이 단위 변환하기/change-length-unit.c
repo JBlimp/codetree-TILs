@@ -6,7 +6,7 @@ int main() {
     double onemi = 160934;
     double a = 9.2;
     double b = 1.3;
-    printf("%.1lfft = %.1lfcm", a, a*oneft);
+    printf("%.1lfft = %.1lfcm\n", a, a*oneft);
     printf("%.1lfmi = %.1lfcm", b, b*onemi);
     return 0;
 }
