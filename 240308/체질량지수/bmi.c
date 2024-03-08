@@ -4,7 +4,7 @@ int main() {
     // 여기에 코드를 작성해주세요.
     int h, w;
     scanf("%d %d", &h, &w);
-    int bmi = w / (h * h);
+    int bmi = w / (h * h) * 10000;
     printf("%d\n", bmi);
     if (bmi >= 25) {
         printf("Obesity");
