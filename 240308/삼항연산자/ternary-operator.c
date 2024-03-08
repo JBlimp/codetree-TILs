@@ -8,7 +8,7 @@ int main() {
     if (grade == 0) {
         printf("pass");
     } else {
-        printf("fail");
+        printf("failure");
     }
     return 0;
 }
