@@ -3,7 +3,7 @@
 int main() {
     // 여기에 코드를 작성해주세요.
     int h, w;
-    scanf("%d %d", h, w);
+    scanf("%d %d", &h, &w);
     int bmi = h / (w * w);
     printf("%d\n", bmi);
     if (bmi >= 25) {
