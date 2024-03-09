@@ -6,9 +6,9 @@ int main() {
     scanf("%d", &a);
 
     if(a < 10 || a > 20) {
-        printf("no");
-    } else {
         printf("yes");
+    } else {
+        printf("no");
     }
     return 0;
 }
