@@ -6,7 +6,7 @@ int main() {
     scanf("%d", &m);
 
     if (m >= 3 && m <= 5) {
-        printf("Sprint");
+        printf("Spring");
     } else if (m >= 6 && m <= 8) {
         printf("Summer");
     } else if (m >= 9 && m <= 11) {
