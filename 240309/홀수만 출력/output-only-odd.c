@@ -6,7 +6,7 @@ int main() {
     scanf("%d %d", &a, &b);
 
     for(;a <= b ; a += 2) {
-        printf("%d", a);
+        printf("%d ", a);
     }
     return 0;
 }
