@@ -8,5 +8,6 @@ int main() {
     for (; b >= a; b--) {
         printf("%d ", b);
     }
+    
     return 0;
 }
