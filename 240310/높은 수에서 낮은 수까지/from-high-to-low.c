@@ -5,8 +5,14 @@ int main() {
     int a, b;
     scanf("%d %d", &a, &b);
 
-    for (int i = b; i >= a; i--) {
-        printf("%d ", i);
+    if (a <= b) {
+        for (; b >= a; b--) {
+            printf("%d ", b);
+        }
+    } else {
+        for (; a >= b; a--) {
+            printf("%d ", a);
+        }
     }
     
     return 0;
