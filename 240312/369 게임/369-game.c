@@ -6,9 +6,18 @@ int main() {
     scanf("%d", &n);
 
     for (int i = 1; i <= n; i++) {
-        if (n%3 == 0 || (n/10)%3 == 0 || (n-(n/10)*10)%3 == 0) {
-            printf("0 ");
-        } else {
+        int flag = 0;
+        int num = i;
+        while (num != 0) {
+            int digit = num % 10;
+            if (digit == 3 || digit == 6 || digit == 9) {
+                printf("0 ");
+                flag = 1;
+                break;
+            }
+            num /= 10;
+        }
+        if (flag == 0 && i % 3 != 0) {
             printf("%d ", i);
         }
     }
