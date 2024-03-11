@@ -17,7 +17,7 @@ int main() {
             }
             num /= 10;
         }
-        if (flag == 0 && i % 3 != 0) {
+        if (flag == 0) {
             printf("%d ", i);
         }
     }
