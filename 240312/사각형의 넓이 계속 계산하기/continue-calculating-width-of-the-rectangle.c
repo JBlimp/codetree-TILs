@@ -9,7 +9,7 @@ int main() {
         scanf("%d %d %c", &a, &b, &c);
         input[cnt] = a * b;
         cnt++;
-        if (c == "C") {
+        if (c == 'C') {
             break;
         }
     }
