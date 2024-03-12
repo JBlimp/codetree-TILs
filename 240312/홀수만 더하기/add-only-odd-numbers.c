@@ -7,7 +7,7 @@ int main() {
 
     for (int i = 0; i < n; i++) {
         scanf("%d", &input);
-        if (input % 2 == 1 && input & 3 == 0) {
+        if (input % 2 == 1 && input % 3 == 0) {
             sum_val += input;
         }
     }
