@@ -4,7 +4,8 @@ int main() {
     // 여기에 코드를 작성해주세요.
     int n;
     scanf("%d", &n);
-    int* input = (int*)malloc(sizeof(int)*n);
+    int* input;
+    input = (int*)malloc(sizeof(int)*n);
     
     for (int i = 0; i < n; i++) {
         scanf("%d", &input[i]);
