@@ -7,7 +7,7 @@ int main() {
 
     int cnt_class = 0, cnt_hall = 0, cnt_bath = 0;
 
-    for (int i = 1; i < n; i++) {
+    for (int i = 1; i <= n; i++) {
         if (i % 12 == 0) {
             cnt_bath++;
         } else if (i % 6 == 0 || i % 3 == 0) {
