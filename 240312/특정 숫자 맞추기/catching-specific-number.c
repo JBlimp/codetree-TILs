@@ -5,9 +5,9 @@ int main() {
     int n;
     while (1) {
         scanf("%d", &n);
-        if (n < 25) {
+        if (n > 25) {
             printf("Lower\n");
-        } else if (n > 25) {
+        } else if (n < 25) {
             printf("Higher\n");
         } else {
             printf("Good");
