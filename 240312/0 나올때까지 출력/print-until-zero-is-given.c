@@ -13,7 +13,7 @@ int main() {
     }
 
     for (int i = 0; i < cnt; i++) {
-        printf("%d", input[i]);
+        printf("%d\n", input[i]);
     }
     return 0;
 }
