@@ -4,7 +4,7 @@ int main() {
     // 여기에 코드를 작성해주세요.
     int cnt = 0;
     int input[100];
-    while (true) {
+    while (1) {
         scanf("%d", &input[cnt]);
         if (input[cnt] == 0) {
             break;
