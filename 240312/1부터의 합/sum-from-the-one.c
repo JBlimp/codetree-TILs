@@ -5,10 +5,11 @@ int main() {
     int n, sum = 0;
     scanf("%d", &n);
     for (int i = 1; i <= 100; i++) {
-        if (sum + i >= n) {
+        sum += i;
+        if (sum >= n) {
+            sum -= i;
             break;
         }
-        sum += i;
     }
 
     printf("%d", sum);
