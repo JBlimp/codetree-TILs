@@ -13,7 +13,7 @@ int main() {
         }
     }
 
-    ave = sum / cnt;
+    ave = (float)sum / cnt;
 
     printf("%d %.1f",sum, ave);
     return 0;
