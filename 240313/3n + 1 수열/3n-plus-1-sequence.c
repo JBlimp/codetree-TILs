@@ -6,6 +6,10 @@ int main() {
     scanf("%d", &n);
 
     while (1) {
+        if (n == 1) {
+            break;
+        }
+
         if (n % 2 == 0) {
             n /= 2;
         } else {
@@ -13,10 +17,6 @@ int main() {
         }
 
         cnt++;
-
-        if (n == 1) {
-            break;
-        }
     }
 
     printf("%d", cnt);
